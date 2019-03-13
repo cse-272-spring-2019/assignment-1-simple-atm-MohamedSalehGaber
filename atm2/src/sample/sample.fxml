@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="1212.0" prefWidth="978.0">
+         <children>
+            <Button fx:id="withdraw" layoutX="234.0" layoutY="269.0" mnemonicParsing="false" onAction="#Withdraw" style="-fx-background-color: blue;" text="Withdraw" textFill="WHITE" visible="false" />
+            <Button fx:id="balance" layoutX="423.0" layoutY="687.0" mnemonicParsing="false" onAction="#Balance" style="-fx-background-color: blue;" text="Balance" textFill="WHITE" visible="false" />
+            <Button fx:id="previous" layoutX="250.0" layoutY="541.0" mnemonicParsing="false" onAction="#Previous" style="-fx-background-color: blue;" text="Previous" textFill="WHITE" visible="false" />
+            <Button fx:id="next" layoutX="591.0" layoutY="541.0" mnemonicParsing="false" onAction="#Next" style="-fx-background-color: blue;" text="Next" textFill="WHITE" visible="false" />
+            <Button fx:id="deposit" layoutX="591.0" layoutY="269.0" mnemonicParsing="false" onAction="#Deposit" style="-fx-background-color: blue;" text="Deposit" textFill="WHITE" visible="false" />
+            <Button fx:id="seven" layoutX="102.0" layoutY="269.0" mnemonicParsing="false" onAction="#Seven" text="7" visible="false" />
+            <Button fx:id="eight" layoutX="424.0" layoutY="269.0" mnemonicParsing="false" onAction="#Eight" text="8" visible="false" />
+            <Button fx:id="nine" layoutX="739.0" layoutY="269.0" mnemonicParsing="false" onAction="#Nine" text="9" visible="false" />
+            <Button fx:id="four" layoutX="102.0" layoutY="438.0" mnemonicParsing="false" onAction="#Four" text="4" visible="false" />
+            <Button fx:id="five" layoutX="424.0" layoutY="438.0" mnemonicParsing="false" onAction="#Five" text="5" visible="false" />
+            <Button fx:id="six" layoutX="739.0" layoutY="438.0" mnemonicParsing="false" onAction="#Six" text="6" visible="false" />
+            <Button fx:id="one" layoutX="102.0" layoutY="654.0" mnemonicParsing="false" onAction="#One" text="1" visible="false" />
+            <Button fx:id="three" layoutX="739.0" layoutY="654.0" mnemonicParsing="false" onAction="#Three" text="3" visible="false" />
+            <Button fx:id="two" layoutX="424.0" layoutY="654.0" mnemonicParsing="false" onAction="#Two" text="2" visible="false" />
+            <Button fx:id="zero" layoutX="424.0" layoutY="752.0" mnemonicParsing="false" onAction="#Zero" text="0" visible="false" />
+            <TextField fx:id="enteramount" layoutX="296.0" layoutY="108.0" promptText="Enter Amount" visible="false" />
+            <Button fx:id="enter" layoutX="685.0" layoutY="108.0" mnemonicParsing="false" onAction="#Enter" text="Enter" visible="false" />
+            <Label layoutX="325.0" prefHeight="105.0" prefWidth="339.0" text="     ATM" textFill="#b81a82">
+               <font>
+                  <Font size="72.0" />
+               </font>
+            </Label>
+            <TextField fx:id="blance" layoutX="366.0" layoutY="189.0" onAction="#Balance" promptText="Balance" visible="false" />
+            <Button fx:id="back" layoutX="171.0" layoutY="189.0" mnemonicParsing="false" onAction="#Back" text="Back" visible="false" />
+            <Button fx:id="delete" layoutX="755.0" layoutY="189.0" mnemonicParsing="false" onAction="#Delete" text="Delete" visible="false" />
+            <TextField fx:id="cardnumber" layoutX="318.0" layoutY="363.0" promptText="Enter CardNumber" />
+            <TextField fx:id="Sim" layoutX="318.0" layoutY="463.0" promptText="Enter Sim" />
+            <Button fx:id="MainMenu" layoutX="408.0" layoutY="606.0" mnemonicParsing="false" onAction="#mainmenu" text="Main Menu" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
